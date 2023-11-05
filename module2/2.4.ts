@@ -1,6 +1,6 @@
 // generic with interface
 
-interface DeveloperGeneric<T, X> {
+interface DeveloperGeneric<T, X = null> {
     name: string;
     designation: string;
     computer: {
@@ -30,7 +30,7 @@ interface yamahaBike {
     cc: string,
 }
 
-const poorDeveloper:DeveloperGeneric<miWatch, null> = {
+const poorDeveloper:DeveloperGeneric<miWatch> = {
     name: "John",
     designation: "manager",
     computer: {
