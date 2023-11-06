@@ -45,8 +45,23 @@
     }
 
     // person1.name = "Kakon Debnath" // readonly type
-    
 
+    // record type
+
+    // type MyObj = {
+    //     a: string,
+    //     b: string
+    // }
+
+    type MyObj1 = Record<string, string>
+
+    const obj1: MyObj1 = {
+        a: "a",
+        b: "b",
+        c: "c",
+    }
+    
+    const emptyOjb : Record<string, unknown> = {}
 
 
 }
