@@ -1,7 +1,7 @@
 {
     // inherited OOP
 
-    class Parent {
+    class Person {
         name: string;
         age: number;
         address: string;
@@ -17,7 +17,7 @@
     }
 
 
-    class Student extends Parent {
+    class Student extends Person {
 
         constructor(name: string, age: number, address: string) {
             super(name, age, address);
@@ -36,7 +36,7 @@
 
 
 
-    class Teacher extends Parent {
+    class Teacher extends Person {
         designation: string;
         constructor(name: string, age: number, address: string, designation: string) {
             super(name, age, address)
