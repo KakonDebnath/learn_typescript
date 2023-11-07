@@ -33,6 +33,11 @@
         }
     }
 
+    const dog = new Dog("kalu","dog");
+    // dog.makeBark();
+
+    const cat = new Cat("Chinku","cat");
+    // cat.makeMeyow();
 
     // smart way 
 
@@ -56,22 +61,7 @@
         }
     }
     
-    
-    
-    const dog = new Dog("kalu","dog");
-    // dog.makeBark();
-
-    const cat = new Cat("Chinku","cat");
-    // cat.makeMeyow();
-
-
 
     getAnimal(dog)
-
-
-
-
-
-
 
 }
